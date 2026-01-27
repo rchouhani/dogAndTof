@@ -24,6 +24,7 @@ nav {
     left: 0;
     width: 100%;
     background-color: #3492BA;
+    box-shadow: 5px 5px 30px lightgrey;
     @media screen and (min-width: 900px) {
         flex-direction: row;
     }
@@ -134,15 +135,16 @@ header > button {
     margin: 0;
 }
 .img-your-dog > figure > img {
+    background-image: url("/images/photos/berger_before.webp");
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 5px 5px 30px grey;
     margin-bottom: 25px;
-    @media screen and (min-width: 900px) {
-        
-    }
+}
+.img-your-dog > figure > img:hover{
+    background-image: url("/images/photos/berger-after.jpg");
 }
 .img-your-dog > figure > figcaption {
     text-align: center;
