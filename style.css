@@ -1,0 +1,317 @@
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3492BA;
+    @media screen and (min-width: 900px) {
+        flex-direction: row;
+    }
+}
+nav > a:nth-child(3), a:nth-child(4) {
+    display: none;
+    @media screen and (min-width: 900px) {
+        display: flex;
+    }
+}
+nav > img {
+    object-fit:cover;
+    width: 100px;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+    color: #2e373b;
+    margin: 0 0.75rem 0 0.75rem;
+}
+nav > a:nth-child(2) {
+    font-size: 3rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+header > img {
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+}
+header > p {
+    position: absolute;
+    top: 150px;
+    margin-left: 20px;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    @media screen and (min-width: 900px) {
+    top: 75px;
+    margin-left: 95px;
+    font-size: 4rem;    
+    }
+}
+header > ul {
+    position: absolute;
+    top: 260px;
+    z-index: 10;
+    margin-left: -22px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    font-size: 1.2rem;
+    color: rgb(253, 253, 253);
+    @media screen and (min-width: 900px) {
+    margin-left: 51px;
+    width: 55%;
+    font-size: 2rem;    
+    }
+}
+header > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+header > ul > img {
+    display: flex;
+    flex-direction: row;
+    width: 32px;
+    height: 32px;
+}
+header > button {
+    z-index: 12;
+    position: absolute;
+    top: 470px;
+    left: 15px;
+    background-color: #BA6434;
+    width: 220px;
+    border-radius: 8px;
+    padding: 10px;
+    @media screen and (min-width: 900px) {
+        left: 87px;
+    }
+}
+
+#your-dog {
+    display: flex;
+    flex-direction: column;
+}
+#your-dog > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.img-your-dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    @media screen and (min-width: 900px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.img-your-dog > figure {
+    margin: 0;
+}
+.img-your-dog > figure > img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px grey;
+    margin-bottom: 25px;
+    @media screen and (min-width: 900px) {
+        
+    }
+}
+.img-your-dog > figure > figcaption {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 25px; 
+}
+
+#education-issue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+    color: white;
+    background-color: #3492BA;
+    width: 100%;
+}
+#education-issue > div {
+    width: 100%;
+    @media screen and (min-width: 900px) {
+        width: 87%;
+    }
+}
+#education-issue > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin: 15px 0 15px 0;
+}
+#sous-section-education-issue > .issues-button > span {
+    font-size: 2rem;
+    @media screen and (min-width: 900px) {
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+    }
+}
+#sous-section-education-issue > .issues-button > button {
+    background-color: #BA6434;
+    width: 220px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0 25px 0;
+}
+#sous-section-education-issue {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%; 
+    @media screen and (min-width: 900px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+#sous-section-education-issue > .issues {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    @media screen and (min-width: 900px) {
+        flex-direction: column;
+    }
+}
+#sous-section-education-issue > div > li > span {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+#sous-section-education-issue > div > li > img {
+    width: 32px;
+    height: 32px;
+}
+.issues-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 900px) {
+        width: 31%;
+        align-items: center;
+    }
+}
+
+#puppy-section {
+    display: flex;
+    flex-direction: column;
+}
+#puppy-section > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+#img-your-puppy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    @media screen and (min-width: 900px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+#img-your-puppy > figure {
+    margin: 0;
+}
+#img-your-puppy > figure > img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px grey;
+    margin-bottom: 25px;
+    @media screen and (min-width: 900px) {
+    }
+}
+#img-your-puppy > figure > figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 25px; 
+}
+#puppy-button {
+    background-color: #3492BA;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#puppy-button > span {
+    font-size: 2rem;
+    margin-top: 15px;
+    @media screen and (min-width: 900px) {
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+    }
+}
+#puppy-button > button {
+    background-color: #BA6434;
+    width: 220px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0 25px 0;
+}
+
+#contact-section {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#contact-section > figure > figcaption {
+    text-align: center;
+}
+#contact-section > figure > img {
+    width: 350px;
+    height: 250px;
+}
+#area-trainer-dog {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+}
+#contact-shift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3492BA;
+    width: 100%;
+    padding: 15px;
+}
