@@ -76,6 +76,7 @@ nav img {
     transform: translateX(-50%);
 }
 .nav-right a {
+    font-size: 1.5rem;
     display: none;
     @media screen and (min-width: 900px) {
             display: flex;
@@ -135,7 +136,7 @@ header > ul > img {
     width: 32px;
     height: 32px;
 }
-header > button {
+header > a >button {
     position: absolute;
     top: 470px;
     left: 15px;
@@ -217,7 +218,7 @@ header > button {
         font-size: 2rem;
     }
 }
-#sous-section-education-issue > .issues-button > button {
+#sous-section-education-issue > .issues-button > a > button {
     background-color: #BA6434;
     width: 220px;
     border-radius: 8px;
@@ -309,6 +310,7 @@ header > button {
     align-items: center;
 }
 #puppy-button > span {
+    color: white;
     font-size: 2rem;
     margin-top: 15px;
     @media screen and (min-width: 900px) {
@@ -317,7 +319,7 @@ header > button {
         font-size: 2rem;
     }
 }
-#puppy-button > button {
+#puppy-button > a > button {
     background-color: #BA6434;
     width: 220px;
     border-radius: 8px;
