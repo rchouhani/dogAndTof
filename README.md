@@ -10,6 +10,8 @@ Site vitrine responsive conçu pour offrir une présence en ligne professionnell
 
 👉 Site en production :
 https://www.dogandtof.fr
+<img width="2048" height="1244" alt="cdf32eda-f1e4-458b-b9e9-a3b7d1e133a2" src="https://github.com/user-attachments/assets/e9f28a4f-6974-49be-b1a7-2fa995f3018a" />
+
 
 ---
 
