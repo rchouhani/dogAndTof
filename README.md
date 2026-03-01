@@ -8,7 +8,7 @@ Site vitrine responsive conçu pour offrir une présence en ligne professionnell
 
 **Dog & Tof** est un site web statique permettant à un éducateur canin de présenter ses services, améliorer sa visibilité locale et faciliter la prise de contact avec ses futurs clients.
 
-👉 Site en production :  
+👉 Site en production :
 https://www.dogandtof.fr
 
 ---
@@ -49,7 +49,7 @@ Puis ouvrir index.html dans un navigateur
 
 ---
 
-## 🧠 Challenges & apprentissages
+# 🧠 Challenges & apprentissages
 
 ## Responsive design
 
@@ -61,7 +61,7 @@ Le déploiement sur un hébergement OVH a nécessité une adaptation par rapport
 - upload manuel des fichiers
 - gestion serveur plus traditionnelle
 
-##Accessibilité
+## Accessibilité
 
 Travail volontaire sur :
 - la structure HTML
