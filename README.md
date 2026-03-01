@@ -39,8 +39,6 @@ Aucune dépendance externe.
 
 ## ⚙️ Installation et lancement
 
-Aucune installation nécessaire.
-
 Le projet étant un site statique :
 
 ```bash
@@ -52,6 +50,7 @@ Puis ouvrir index.html dans un navigateur
 ---
 
 ## 🧠 Challenges & apprentissages
+
 ## Responsive design
 
 Le principal défi a concerné le CSS afin de garantir une expérience cohérente sur différents écrans.
