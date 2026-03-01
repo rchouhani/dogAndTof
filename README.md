@@ -52,17 +52,17 @@ Puis ouvrir index.html dans un navigateur
 ---
 
 ## 🧠 Challenges & apprentissages
-# Responsive design
+## Responsive design
 
 Le principal défi a concerné le CSS afin de garantir une expérience cohérente sur différents écrans.
 
-# Déploiement OVH
+## Déploiement OVH
 
 Le déploiement sur un hébergement OVH a nécessité une adaptation par rapport aux workflows modernes utilisés habituellement (ex : Vercel), notamment :
 - upload manuel des fichiers
 - gestion serveur plus traditionnelle
 
-# Accessibilité
+## Accessibilité
 
 Travail volontaire sur :
 - la structure HTML
