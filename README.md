@@ -67,7 +67,6 @@ Travail volontaire sur :
 - la structure HTML
 - les attributs descriptifs des images et liens
 
----
 
 ## 🗺️ Roadmap
 
@@ -75,8 +74,6 @@ Améliorations envisagées :
 - Renforcement de l’accessibilité
 - Optimisations SEO / GEO
 - Ajustements UX suite aux retours utilisateurs
-
----
 
 
 ## Auteur
